@@ -41,37 +41,51 @@
     <div class="main">
       <header>
         <div class="header-left">
-         <a href="#" class="header-logo">
-           <img src="svg/zemeckis.svg" alt="" />
-         </a>
-       </div>
-       <div class="hamburger">
-         <div class="line"></div>
-         <div class="line"></div>
-         <div class="line"></div>
-       </div>
-       <nav class="nav-bar">
-         <ul>
-           <li>
-             <a href="" class="active">Главная</a>
-           </li>
-           <li>
-             <a href="" class="active">Каталог</a>
-           </li>
-           <li>
-             <a href="" class="active">Магазин</a>
-           </li>
-         </ul>
-       </nav>
-       <div class="header-right">
-         <div class="input-box">
-           <input type="text" placeholder="Введите название..." required />
-         </div>
-         <a href="authorization.html" class="header-user">
-           <img src="svg/user.svg" alt="" />
-         </a>
-       </div> 
-     </header>
+          <a href="index.html" class="header-logo">
+            <img src="svg/zemeckis.svg" alt="" />
+          </a>
+        </div>
+
+        <div class="header-right-content">
+          <div class="hamburger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+          </div>
+          <div class="header-right" id="header-right">
+            <div class="placeholder-row">
+              <input
+                type="text"
+                placeholder="Введите название..."
+                id="input-box"
+                autocomplete="off"
+              />
+              <button><i class="bx bx-search"></i></button>
+            </div>
+            <div class="result-box"></div>
+          </div>
+        </div>
+        <nav class="nav-bar">
+          <ul>
+            <li>
+              <a href="index.html">Главная</a>
+            </li>
+            <li>
+              <a href="index.html#second">Каталог</a>
+            </li>
+            <li>
+              <a href="shop.html">Магазин</a>
+            </li>
+            <li class="registration-link">
+              <a href="authorization.html">Войти</a>
+            </li>
+          </ul>
+        </nav>
+
+        <a href="authorization.html" class="header-user">
+          <img src="svg/user.svg" alt="" />
+        </a>
+      </header>
     <div class="main">
         <h1 class="main-title">
             При первой покупке скидка 30%!
@@ -126,59 +140,60 @@
                 </div>
             </div>
         </div>      
+
         <footer>
-            <div class="footer-upper-stroke"></div>
-            <div class="footer-content">
-              <div class="footer-first-column">
-                <span>О нас</span>
-                <a href="#">О компании</a> <br />
-                <a href="#">Вакансии</a> <br />
-                <a href="#">Программа для бета-тестирования</a> <br />
-                <a href="#">Информация для партнёров</a> <br />
-                <a href="#">Размещение рекламы</a> <br />
-                <a href="#">Пользовательское соглашение</a> <br />
-                <a href="#">Политика конфидециальности</a>
-              </div>
-              <div class="footer-second-column">
-                <span>Разделы</span>
-                <a href="">Что нового</a> <br />
-                <a href="">Фильмы</a> <br />
-                <a href="">Сериалы</a> <br />
-                <a href="">Мультфильмы</a> <br />
-                <a href="">ТВ-каналы</a> <br />
-                <a href="">Что посмотреть</a>
-              </div>
-              <div class="footer-third-column">
-                <span>Служба поддержки</span>
-                Мы всегда готовы вам помочь. <br />
-                Наши операторы онлайн 24/7
-                <div class="footer-third-column-chat">Написать в чате</div>
-                <div class="footer-third-column-content">
-                  <div class="footer-third-column-mail">
-                    <img src="svg/mail 1.svg" alt="" />
-                  </div>
-                  <div class="footer-third-column-phone">
-                    <img src="svg/telephone.svg" alt="" />
-                  </div>
+          <div class="footer-upper-stroke"></div>
+          <div class="footer-content">
+            <div class="footer-first-column">
+              <span>О нас</span>
+              <a href="about-us.html">О компании</a> <br />
+              <a href="job-openings.html">Вакансии</a> <br />
+              <a href="email.html">Программа для бета-тестирования</a> <br />
+              <a href="email.html">Информация для партнёров</a> <br />
+              <a href="email.html">Размещение рекламы</a> <br />
+              <a href="email.html">Пользовательское соглашение</a> <br />
+              <a href="email.html">Политика конфидециальности</a>
+            </div>
+            <div class="footer-second-column">
+              <span>Разделы</span>
+              <a href="index.html#second">Сейчас смотрят</a> <br />
+              <a href="index.html#autoWidth2">Мультфильмы</a> <br />
+              <a href="index.html#autoWidth3">Мелодрамы</a> <br />
+              <a href="index.html#autoWidth4">Триллеры</a> <br />
+              <a href="index.html#autoWidth5">Ужасы</a> <br />
+            </div>
+            <div class="footer-third-column">
+              <span>Служба поддержки</span>
+              Мы всегда готовы вам помочь. <br />
+              Наши операторы онлайн 24/7
+              <div class="footer-third-column-chat"><a href="https://t.me/zemeckisofficial">Написать в чате</a></div>
+              <div class="footer-third-column-content">
+                <div class="footer-third-column-mail">
+                  <a href="mailto:zemeckis.official@gmail.com">
+                  <img src="svg/mail 1.svg" alt="" />
+                  </a>
                 </div>
               </div>
             </div>
-            <div class="footer-bottom-stroke"></div>
-            <div class="footer-media">
-              <div class="footer-media-icon">
-                <img src="svg/vk-logo-of-social-network 1.svg" alt="">
-              </div>
-              <div class="footer-media-icon">
-                <img src="svg/twitter 1.svg" alt="">
-              </div>
-              <div class="footer-media-icon">
-                <img src="svg/telegram (1) 1.svg" alt="">
-              </div>
-              <div class="footer-media-icon">
-                <img src="svg/tik-tok 1.svg" alt="">
-              </div>
+          </div>
+          <div class="footer-bottom-stroke"></div>
+          <div class="footer-media">
+            <div class="footer-media-icon">
+              <a href="https://vk.ru/club225802798"><img src="svg/vk-logo-of-social-network 1.svg" alt="" /></a>
             </div>
-          </footer>
+            <div class="footer-media-icon">
+              <a href="https://twitter.com/bazarajackson">
+              <img src="svg/twitter 1.svg" alt="" />
+              </a>
+            </div>
+            <div class="footer-media-icon">
+              <a href="https://t.me/zemeckisofficial">
+              <img src="svg/telegram (1) 1.svg" alt="" />
+              </a>
+            </div>
+          </div>
+        </footer>
     </div>
+    <script src="js/autocomplete.js"></script>
   </body>
 </html>

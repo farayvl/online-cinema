@@ -1,9 +1,8 @@
 hamburger = document.querySelector(".hamburger");
-hamburger.onclick = function() {
+hamburger.onclick = function () {
   navBar = document.querySelector(".nav-bar");
   navBar.classList.toggle("active");
-}
-
+};
 
 var swiper = new Swiper(".mySwiper", {
   navigation: {
@@ -23,5 +22,3 @@ $(document).ready(function () {
   }
   initializeLightSlider();
 });
-
-

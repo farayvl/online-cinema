@@ -40,43 +40,51 @@
   <body>
     <div class="main">
       <header>
-         <div class="header-left">
-          <a href="#" class="header-logo">
+        <div class="header-left">
+          <a href="index.html" class="header-logo">
             <img src="svg/zemeckis.svg" alt="" />
           </a>
         </div>
-        <div class="hamburger">
-          <div class="line"></div>
-          <div class="line"></div>
-          <div class="line"></div>
+
+        <div class="header-right-content">
+          <div class="hamburger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+          </div>
+          <div class="header-right" id="header-right">
+            <div class="placeholder-row">
+              <input
+                type="text"
+                placeholder="Введите название..."
+                id="input-box"
+                autocomplete="off"
+              />
+              <button><i class="bx bx-search"></i></button>
+            </div>
+            <div class="result-box"></div>
+          </div>
         </div>
         <nav class="nav-bar">
           <ul>
             <li>
-              <a href="" class="active">Главная</a>
+              <a href="index.html">Главная</a>
             </li>
             <li>
-              <a href="" class="active">Каталог</a>
+              <a href="index.html#second">Каталог</a>
             </li>
             <li>
-              <a href="" class="active">Магазин</a>
+              <a href="shop.html">Магазин</a>
             </li>
-            <li>
-              <a href="" class="active">Войти</a>
-            </li>
-            <li>
-              <a href="" class="active">Поиск</a>
+            <li class="registration-link">
+              <a href="authorization.html">Войти</a>
             </li>
           </ul>
         </nav>
-        <div class="header-right">
-          <div class="input-box">
-            <input type="text" placeholder="Введите название..." required />
-          </div>
-          <a href="authorization.html" class="header-user">
-            <img src="svg/user.svg" alt="" />
-          </a>
-        </div> 
+
+        <a href="authorization.html" class="header-user">
+          <img src="svg/user.svg" alt="" />
+        </a>
       </header>
       <div class="header-upper-stroke"></div>
       <div class="swiper mySwiper">
@@ -110,7 +118,7 @@
                   <p>Смотреть</p>
                 </div>
               </div>
-              <img src="img/аvengers2.jpg" alt="" />
+              <img src="img/аvengers.jpg" alt="" />
             </div>
           </div>
 
@@ -247,1040 +255,1100 @@
       <div class="second" id="second">
         <h1>Сейчас смотрят:</h1>
         <ul class="latest" id="autoWidth">
-          <li class="item-a">
-            <div class="box">
-              <div class="card">
-                <div class="details">
-                  <div class="left">
-                    <p class="name">Веном</p>
-                    <div class="date-quality">
-                      <p class="quality">HD</p>
-                      <p class="date">2018</p>
-                    </div>
-                    <p class="category">Боевик</p>
+          <a href="venom.html">
+            <li class="item-a">
+              <div class="box">
+                <div class="card">
+                  <div class="details">
+                    <div class="left">
+                      <p class="name">Веном</p>
+                      <div class="date-quality">
+                        <p class="quality">HD</p>
+                        <p class="date">2018</p>
+                      </div>
+                      <p class="category">Боевик</p>
 
-                    <div class="info">
-                      <div class="rate">
-                        <i class="fa-solid fa-star"></i>
-                        <p>6.9</p>
+                      <div class="info">
+                        <div class="rate">
+                          <i class="fa-solid fa-star"></i>
+                          <p>6.9</p>
+                        </div>
+                        <div class="time">
+                          <i class="fa-regular fa-clock"></i>
+                          <p>112 минут</p>
+                        </div>
                       </div>
-                      <div class="time">
-                        <i class="fa-regular fa-clock"></i>
-                        <p>112 минут</p>
-                      </div>
+                    </div>
+
+                    <div class="right">
+                      <i class="fa-solid fa-play"></i>
                     </div>
                   </div>
-
-                  <div class="right">
-                    <i class="fa-solid fa-play"></i>
+                  <div class="card-img">
+                    <img src="img/venom.jpg" alt="" />
                   </div>
-                </div>
-                <div class="card-img">
-                  <img src="img/venom.jpg" alt="" />
                 </div>
               </div>
-            </div>
-          </li>
-          <li class="item-b">
-            <div class="box">
-              <div class="card">
-                <div class="details">
-                  <div class="left">
-                    <p class="name">Джон Уик</p>
-                    <div class="date-quality">
-                      <p class="quality">HD</p>
-                      <p class="date">2014</p>
-                    </div>
-                    <p class="category">Триллер</p>
+            </li>
+          </a>
+          <a href="john-wick.html">
+            <li class="item-b">
+              <div class="box">
+                <div class="card">
+                  <div class="details">
+                    <div class="left">
+                      <p class="name">Джон Уик</p>
+                      <div class="date-quality">
+                        <p class="quality">HD</p>
+                        <p class="date">2014</p>
+                      </div>
+                      <p class="category">Триллер</p>
 
-                    <div class="info">
-                      <div class="rate">
-                        <i class="fa-solid fa-star"></i>
-                        <p>8.5</p>
+                      <div class="info">
+                        <div class="rate">
+                          <i class="fa-solid fa-star"></i>
+                          <p>8.5</p>
+                        </div>
+                        <div class="time">
+                          <i class="fa-regular fa-clock"></i>
+                          <p>101 мин</p>
+                        </div>
                       </div>
-                      <div class="time">
-                        <i class="fa-regular fa-clock"></i>
-                        <p>101 мин</p>
-                      </div>
+                    </div>
+
+                    <div class="right">
+                      <i class="fa-solid fa-play"></i>
                     </div>
                   </div>
-
-                  <div class="right">
-                    <i class="fa-solid fa-play"></i>
+                  <div class="card-img">
+                    <img src="img/john-wick.jpg" alt="" />
                   </div>
-                </div>
-                <div class="card-img">
-                  <img src="img/john-wick.jpg" alt="" />
                 </div>
               </div>
-            </div>
-          </li>
-          <li class="item-c">
-            <div class="box">
-              <div class="card">
-                <div class="details">
-                  <div class="left">
-                    <p class="name">Во все тяжкие</p>
-                    <div class="date-quality">
-                      <p class="quality">HD</p>
-                      <p class="date">2008</p>
-                    </div>
-                    <p class="category">Триллер, Сериал</p>
+            </li>
+          </a>
+          <a href="breaking-bad.html">
+            <li class="item-c">
+              <div class="box">
+                <div class="card">
+                  <div class="details">
+                    <div class="left">
+                      <p class="name">Во все тяжкие</p>
+                      <div class="date-quality">
+                        <p class="quality">HD</p>
+                        <p class="date">2008</p>
+                      </div>
+                      <p class="category">Триллер, Сериал</p>
 
-                    <div class="info">
-                      <div class="rate">
-                        <i class="fa-solid fa-star"></i>
-                        <p>8.9</p>
+                      <div class="info">
+                        <div class="rate">
+                          <i class="fa-solid fa-star"></i>
+                          <p>8.9</p>
+                        </div>
+                        <div class="time">
+                          <i class="fa-regular fa-clock"></i>
+                          <p>47 минут</p>
+                        </div>
                       </div>
-                      <div class="time">
-                        <i class="fa-regular fa-clock"></i>
-                        <p>47 минут</p>
-                      </div>
+                    </div>
+
+                    <div class="right">
+                      <i class="fa-solid fa-play"></i>
                     </div>
                   </div>
-
-                  <div class="right">
-                    <i class="fa-solid fa-play"></i>
+                  <div class="card-img">
+                    <img src="img/breaking-bad.jpg" alt="" />
                   </div>
-                </div>
-                <div class="card-img">
-                  <img src="img/breaking-bad.jpg" alt="" />
                 </div>
               </div>
-            </div>
-          </li>
-          <li class="item-d">
-            <div class="box">
-              <div class="card">
-                <div class="details">
-                  <div class="left">
-                    <p class="name">Человек-Паук: Через Вселенные</p>
-                    <div class="date-quality">
-                      <p class="quality">4K</p>
-                      <p class="date">2023</p>
-                    </div>
-                    <p class="category">Мультфильм</p>
+            </li>
+          </a>
+          <a href="across-the-spider-verse.html">
+            <li class="item-d">
+              <div class="box">
+                <div class="card">
+                  <div class="details">
+                    <div class="left">
+                      <p class="name">Человек-Паук: Через Вселенные</p>
+                      <div class="date-quality">
+                        <p class="quality">4K</p>
+                        <p class="date">2023</p>
+                      </div>
+                      <p class="category">Мультфильм</p>
 
-                    <div class="info">
-                      <div class="rate">
-                        <i class="fa-solid fa-star"></i>
-                        <p>8.9</p>
+                      <div class="info">
+                        <div class="rate">
+                          <i class="fa-solid fa-star"></i>
+                          <p>8.9</p>
+                        </div>
+                        <div class="time">
+                          <i class="fa-regular fa-clock"></i>
+                          <p>140 минут</p>
+                        </div>
                       </div>
-                      <div class="time">
-                        <i class="fa-regular fa-clock"></i>
-                        <p>140 минут</p>
-                      </div>
+                    </div>
+
+                    <div class="right">
+                      <i class="fa-solid fa-play"></i>
                     </div>
                   </div>
-
-                  <div class="right">
-                    <i class="fa-solid fa-play"></i>
+                  <div class="card-img">
+                    <img src="img/acrossthespiderverse.jpg" alt="" />
                   </div>
-                </div>
-                <div class="card-img">
-                  <img src="img/acrossthespiderverse.jpg" alt="" />
                 </div>
               </div>
-            </div>
-          </li>
-          <li class="item-e">
-            <div class="box">
-              <div class="card">
-                <div class="details">
-                  <div class="left">
-                    <p class="name">Очень странные дела</p>
-                    <div class="date-quality">
-                      <p class="quality">HDR</p>
-                      <p class="date">2016</p>
-                    </div>
-                    <p class="category">Хоррор, Сериал</p>
+            </li>
+          </a>
+          <a href="stranger-things.html">
+            <li class="item-e">
+              <div class="box">
+                <div class="card">
+                  <div class="details">
+                    <div class="left">
+                      <p class="name">Очень странные дела</p>
+                      <div class="date-quality">
+                        <p class="quality">HDR</p>
+                        <p class="date">2016</p>
+                      </div>
+                      <p class="category">Хоррор, Сериал</p>
 
-                    <div class="info">
-                      <div class="rate">
-                        <i class="fa-solid fa-star"></i>
-                        <p>8.4</p>
+                      <div class="info">
+                        <div class="rate">
+                          <i class="fa-solid fa-star"></i>
+                          <p>8.4</p>
+                        </div>
+                        <div class="time">
+                          <i class="fa-regular fa-clock"></i>
+                          <p>51 минут</p>
+                        </div>
                       </div>
-                      <div class="time">
-                        <i class="fa-regular fa-clock"></i>
-                        <p>51 минут</p>
-                      </div>
+                    </div>
+
+                    <div class="right">
+                      <i class="fa-solid fa-play"></i>
                     </div>
                   </div>
-
-                  <div class="right">
-                    <i class="fa-solid fa-play"></i>
+                  <div class="card-img">
+                    <img src="img/stranger-things.jpg" alt="" />
                   </div>
-                </div>
-                <div class="card-img">
-                  <img src="img/stranger-things.jpg" alt="" />
                 </div>
               </div>
-            </div>
-          </li>
-          <li class="item-f">
-            <div class="box">
-              <div class="card">
-                <div class="details">
-                  <div class="left">
-                    <p class="name">Ван Пис</p>
-                    <div class="date-quality">
-                      <p class="quality">HD</p>
-                      <p class="date">1999</p>
-                    </div>
-                    <p class="category">Аниме</p>
+            </li>
+          </a>
+          <a href="one-piece.html">
+            <li class="item-f">
+              <div class="box">
+                <div class="card">
+                  <div class="details">
+                    <div class="left">
+                      <p class="name">Ван Пис</p>
+                      <div class="date-quality">
+                        <p class="quality">HD</p>
+                        <p class="date">1999</p>
+                      </div>
+                      <p class="category">Аниме</p>
 
-                    <div class="info">
-                      <div class="rate">
-                        <i class="fa-solid fa-star"></i>
-                        <p>8.4</p>
+                      <div class="info">
+                        <div class="rate">
+                          <i class="fa-solid fa-star"></i>
+                          <p>8.4</p>
+                        </div>
+                        <div class="time">
+                          <i class="fa-regular fa-clock"></i>
+                          <p>22 минут</p>
+                        </div>
                       </div>
-                      <div class="time">
-                        <i class="fa-regular fa-clock"></i>
-                        <p>22 минут</p>
-                      </div>
+                    </div>
+
+                    <div class="right">
+                      <i class="fa-solid fa-play"></i>
                     </div>
                   </div>
-
-                  <div class="right">
-                    <i class="fa-solid fa-play"></i>
+                  <div class="card-img">
+                    <img src="img/onepiece.jpg" alt="" />
                   </div>
-                </div>
-                <div class="card-img">
-                  <img src="img/onepiece.jpg" alt="" />
                 </div>
               </div>
-            </div>
-          </li>
+            </li>
+          </a>
         </ul>
         <h1>Мультфильмы</h1>
         <ul class="latest" id="autoWidth2">
-          <li class="item-a">
-            <div class="box">
-              <div class="card">
-                <div class="details">
-                  <div class="left">
-                    <p class="name">Моана</p>
-                    <div class="date-quality">
-                      <p class="quality">HD</p>
-                      <p class="date">2016</p>
-                    </div>
-                    <p class="category">Мультфильм; Приключения</p>
+          <a href="moana.html">
+            <li class="item-a">
+              <div class="box">
+                <div class="card">
+                  <div class="details">
+                    <div class="left">
+                      <p class="name">Моана</p>
+                      <div class="date-quality">
+                        <p class="quality">HD</p>
+                        <p class="date">2016</p>
+                      </div>
+                      <p class="category">Мультфильм; Приключения</p>
 
-                    <div class="info">
-                      <div class="rate">
-                        <i class="fa-solid fa-star"></i>
-                        <p>7.8</p>
+                      <div class="info">
+                        <div class="rate">
+                          <i class="fa-solid fa-star"></i>
+                          <p>7.8</p>
+                        </div>
+                        <div class="time">
+                          <i class="fa-regular fa-clock"></i>
+                          <p>107 минут</p>
+                        </div>
                       </div>
-                      <div class="time">
-                        <i class="fa-regular fa-clock"></i>
-                        <p>107 минут</p>
-                      </div>
+                    </div>
+
+                    <div class="right">
+                      <i class="fa-solid fa-play"></i>
                     </div>
                   </div>
-
-                  <div class="right">
-                    <i class="fa-solid fa-play"></i>
+                  <div class="card-img">
+                    <img src="img/moana.jpg" alt="" />
                   </div>
-                </div>
-                <div class="card-img">
-                  <img src="img/moana.jpg" alt="" />
                 </div>
               </div>
-            </div>
-          </li>
-          <li class="item-b">
-            <div class="box">
-              <div class="card">
-                <div class="details">
-                  <div class="left">
-                    <p class="name">Город Героев</p>
-                    <div class="date-quality">
-                      <p class="quality">HDR</p>
-                      <p class="date">2014</p>
-                    </div>
-                    <p class="category">Мультфильм; Фантастика</p>
+            </li>
+          </a>
+          <a href="herocity.html">
+            <li class="item-b">
+              <div class="box">
+                <div class="card">
+                  <div class="details">
+                    <div class="left">
+                      <p class="name">Город Героев</p>
+                      <div class="date-quality">
+                        <p class="quality">HDR</p>
+                        <p class="date">2014</p>
+                      </div>
+                      <p class="category">Мультфильм; Фантастика</p>
 
-                    <div class="info">
-                      <div class="rate">
-                        <i class="fa-solid fa-star"></i>
-                        <p>8.0</p>
+                      <div class="info">
+                        <div class="rate">
+                          <i class="fa-solid fa-star"></i>
+                          <p>8.0</p>
+                        </div>
+                        <div class="time">
+                          <i class="fa-regular fa-clock"></i>
+                          <p>105 минут</p>
+                        </div>
                       </div>
-                      <div class="time">
-                        <i class="fa-regular fa-clock"></i>
-                        <p>105 минут</p>
-                      </div>
+                    </div>
+
+                    <div class="right">
+                      <i class="fa-solid fa-play"></i>
                     </div>
                   </div>
-
-                  <div class="right">
-                    <i class="fa-solid fa-play"></i>
+                  <div class="card-img">
+                    <img src="img/hero.jpg" alt="" />
                   </div>
-                </div>
-                <div class="card-img">
-                  <img src="img/hero.jpg" alt="" />
                 </div>
               </div>
-            </div>
-          </li>
-          <li class="item-c">
-            <div class="box">
-              <div class="card">
-                <div class="details">
-                  <div class="left">
-                    <p class="name">Аркейн</p>
-                    <div class="date-quality">
-                      <p class="quality">HD</p>
-                      <p class="date">2021</p>
-                    </div>
-                    <p class="category">Мультсериал</p>
+            </li>
+          </a>
+          <a href="arcane.html">
+            <li class="item-c">
+              <div class="box">
+                <div class="card">
+                  <div class="details">
+                    <div class="left">
+                      <p class="name">Аркейн</p>
+                      <div class="date-quality">
+                        <p class="quality">HD</p>
+                        <p class="date">2021</p>
+                      </div>
+                      <p class="category">Мультсериал</p>
 
-                    <div class="info">
-                      <div class="rate">
-                        <i class="fa-solid fa-star"></i>
-                        <p>8.8</p>
+                      <div class="info">
+                        <div class="rate">
+                          <i class="fa-solid fa-star"></i>
+                          <p>8.8</p>
+                        </div>
+                        <div class="time">
+                          <i class="fa-regular fa-clock"></i>
+                          <p>142 минут</p>
+                        </div>
                       </div>
-                      <div class="time">
-                        <i class="fa-regular fa-clock"></i>
-                        <p>142 минут</p>
-                      </div>
+                    </div>
+
+                    <div class="right">
+                      <i class="fa-solid fa-play"></i>
                     </div>
                   </div>
-
-                  <div class="right">
-                    <i class="fa-solid fa-play"></i>
+                  <div class="card-img">
+                    <img src="img/arcane.jpg" alt="" />
                   </div>
-                </div>
-                <div class="card-img">
-                  <img src="img/arcane.jpg" alt="" />
                 </div>
               </div>
-            </div>
-          </li>
-          <li class="item-d">
-            <div class="box">
-              <div class="card">
-                <div class="details">
-                  <div class="left">
-                    <p class="name">Университет Монстров</p>
-                    <div class="date-quality">
-                      <p class="quality">HD</p>
-                      <p class="date">2013</p>
-                    </div>
-                    <p class="category">Мультфильм; Комедия</p>
+            </li>
+          </a>
+          <a href="monsters.html">
+            <li class="item-d">
+              <div class="box">
+                <div class="card">
+                  <div class="details">
+                    <div class="left">
+                      <p class="name">Университет Монстров</p>
+                      <div class="date-quality">
+                        <p class="quality">HD</p>
+                        <p class="date">2013</p>
+                      </div>
+                      <p class="category">Мультфильм; Комедия</p>
 
-                    <div class="info">
-                      <div class="rate">
-                        <i class="fa-solid fa-star"></i>
-                        <p>7.6</p>
+                      <div class="info">
+                        <div class="rate">
+                          <i class="fa-solid fa-star"></i>
+                          <p>7.6</p>
+                        </div>
+                        <div class="time">
+                          <i class="fa-regular fa-clock"></i>
+                          <p>104 минут</p>
+                        </div>
                       </div>
-                      <div class="time">
-                        <i class="fa-regular fa-clock"></i>
-                        <p>104 минут</p>
-                      </div>
+                    </div>
+
+                    <div class="right">
+                      <i class="fa-solid fa-play"></i>
                     </div>
                   </div>
-
-                  <div class="right">
-                    <i class="fa-solid fa-play"></i>
+                  <div class="card-img">
+                    <img src="img/monster.jpg" alt="" />
                   </div>
-                </div>
-                <div class="card-img">
-                  <img src="img/monster.jpg" alt="" />
                 </div>
               </div>
-            </div>
-          </li>
-          <li class="item-e">
-            <div class="box">
-              <div class="card">
-                <div class="details">
-                  <div class="left">
-                    <p class="name">Как приручить дракона 3</p>
-                    <div class="date-quality">
-                      <p class="quality">HD</p>
-                      <p class="date">2019</p>
-                    </div>
-                    <p class="category">Мультфильм; Фэнтези</p>
+            </li>
+          </a>
+          <a href="dragon.html">
+            <li class="item-e">
+              <div class="box">
+                <div class="card">
+                  <div class="details">
+                    <div class="left">
+                      <p class="name">Как приручить дракона 3</p>
+                      <div class="date-quality">
+                        <p class="quality">HD</p>
+                        <p class="date">2019</p>
+                      </div>
+                      <p class="category">Мультфильм; Фэнтези</p>
 
-                    <div class="info">
-                      <div class="rate">
-                        <i class="fa-solid fa-star"></i>
-                        <p>7.8</p>
+                      <div class="info">
+                        <div class="rate">
+                          <i class="fa-solid fa-star"></i>
+                          <p>7.8</p>
+                        </div>
+                        <div class="time">
+                          <i class="fa-regular fa-clock"></i>
+                          <p>104 минут</p>
+                        </div>
                       </div>
-                      <div class="time">
-                        <i class="fa-regular fa-clock"></i>
-                        <p>104 минут</p>
-                      </div>
+                    </div>
+
+                    <div class="right">
+                      <i class="fa-solid fa-play"></i>
                     </div>
                   </div>
-
-                  <div class="right">
-                    <i class="fa-solid fa-play"></i>
+                  <div class="card-img">
+                    <img src="img/dragon.jpg" alt="" />
                   </div>
-                </div>
-                <div class="card-img">
-                  <img src="img/dragon.jpg" alt="" />
                 </div>
               </div>
-            </div>
-          </li>
-          <li class="item-f">
-            <div class="box">
-              <div class="card">
-                <div class="details">
-                  <div class="left">
-                    <p class="name">Душа</p>
-                    <div class="date-quality">
-                      <p class="quality">HD</p>
-                      <p class="date">2020</p>
-                    </div>
-                    <p class="category">Мультфильм; Семейный</p>
+            </li>
+          </a>
+          <a href="soul.html">
+            <li class="item-f">
+              <div class="box">
+                <div class="card">
+                  <div class="details">
+                    <div class="left">
+                      <p class="name">Душа</p>
+                      <div class="date-quality">
+                        <p class="quality">HD</p>
+                        <p class="date">2020</p>
+                      </div>
+                      <p class="category">Мультфильм; Семейный</p>
 
-                    <div class="info">
-                      <div class="rate">
-                        <i class="fa-solid fa-star"></i>
-                        <p>8.4</p>
+                      <div class="info">
+                        <div class="rate">
+                          <i class="fa-solid fa-star"></i>
+                          <p>8.4</p>
+                        </div>
+                        <div class="time">
+                          <i class="fa-regular fa-clock"></i>
+                          <p>106 мин</p>
+                        </div>
                       </div>
-                      <div class="time">
-                        <i class="fa-regular fa-clock"></i>
-                        <p>106 мин</p>
-                      </div>
+                    </div>
+
+                    <div class="right">
+                      <i class="fa-solid fa-play"></i>
                     </div>
                   </div>
-
-                  <div class="right">
-                    <i class="fa-solid fa-play"></i>
+                  <div class="card-img">
+                    <img src="img/soul.jpg" alt="" />
                   </div>
-                </div>
-                <div class="card-img">
-                  <img src="img/soul.jpg" alt="" />
                 </div>
               </div>
-            </div>
-          </li>
+            </li>
+          </a>
         </ul>
         <h1>Мелодрамы</h1>
         <ul class="latest" id="autoWidth3">
-          <li class="item-a">
-            <div class="box">
-              <div class="card">
-                <div class="details">
-                  <div class="left">
-                    <p class="name">Титаник</p>
-                    <div class="date-quality">
-                      <p class="quality">HD</p>
-                      <p class="date">1997</p>
-                    </div>
-                    <p class="category">Мелодрама, История</p>
+          <a href="titanic.html">
+            <li class="item-a">
+              <div class="box">
+                <div class="card">
+                  <div class="details">
+                    <div class="left">
+                      <p class="name">Титаник</p>
+                      <div class="date-quality">
+                        <p class="quality">HD</p>
+                        <p class="date">1997</p>
+                      </div>
+                      <p class="category">Мелодрама, История</p>
 
-                    <div class="info">
-                      <div class="rate">
-                        <i class="fa-solid fa-star"></i>
-                        <p>8.4</p>
+                      <div class="info">
+                        <div class="rate">
+                          <i class="fa-solid fa-star"></i>
+                          <p>8.4</p>
+                        </div>
+                        <div class="time">
+                          <i class="fa-regular fa-clock"></i>
+                          <p>194 минут</p>
+                        </div>
                       </div>
-                      <div class="time">
-                        <i class="fa-regular fa-clock"></i>
-                        <p>194 минут</p>
-                      </div>
+                    </div>
+
+                    <div class="right">
+                      <i class="fa-solid fa-play"></i>
                     </div>
                   </div>
-
-                  <div class="right">
-                    <i class="fa-solid fa-play"></i>
+                  <div class="card-img">
+                    <img src="img/titanic.webp" alt="" />
                   </div>
-                </div>
-                <div class="card-img">
-                  <img src="img/titanic.webp" alt="" />
                 </div>
               </div>
-            </div>
-          </li>
-          <li class="item-b">
-            <div class="box">
-              <div class="card">
-                <div class="details">
-                  <div class="left">
-                    <p class="name">Предложение</p>
-                    <div class="date-quality">
-                      <p class="quality">HDR</p>
-                      <p class="date">2009</p>
-                    </div>
-                    <p class="category">Мелодрама, Комедия</p>
+            </li>
+          </a>
+          <a href="proposal.html">
+            <li class="item-b">
+              <div class="box">
+                <div class="card">
+                  <div class="details">
+                    <div class="left">
+                      <p class="name">Предложение</p>
+                      <div class="date-quality">
+                        <p class="quality">HDR</p>
+                        <p class="date">2009</p>
+                      </div>
+                      <p class="category">Мелодрама, Комедия</p>
 
-                    <div class="info">
-                      <div class="rate">
-                        <i class="fa-solid fa-star"></i>
-                        <p>7.7</p>
+                      <div class="info">
+                        <div class="rate">
+                          <i class="fa-solid fa-star"></i>
+                          <p>7.7</p>
+                        </div>
+                        <div class="time">
+                          <i class="fa-regular fa-clock"></i>
+                          <p>108 минут</p>
+                        </div>
                       </div>
-                      <div class="time">
-                        <i class="fa-regular fa-clock"></i>
-                        <p>108 минут</p>
-                      </div>
+                    </div>
+
+                    <div class="right">
+                      <i class="fa-solid fa-play"></i>
                     </div>
                   </div>
-
-                  <div class="right">
-                    <i class="fa-solid fa-play"></i>
+                  <div class="card-img">
+                    <img src="img/proposal.webp" alt="" />
                   </div>
-                </div>
-                <div class="card-img">
-                  <img src="img/proposal.webp" alt="" />
                 </div>
               </div>
-            </div>
-          </li>
-          <li class="item-c">
-            <div class="box">
-              <div class="card">
-                <div class="details">
-                  <div class="left">
-                    <p class="name">Любовь и голуби</p>
-                    <div class="date-quality">
-                      <p class="quality">HD</p>
-                      <p class="date">1984</p>
-                    </div>
-                    <p class="category">Мелодрама, Комедия</p>
+            </li>
+          </a>
+          <a href="loveandpiggens.html">
+            <li class="item-c">
+              <div class="box">
+                <div class="card">
+                  <div class="details">
+                    <div class="left">
+                      <p class="name">Любовь и голуби</p>
+                      <div class="date-quality">
+                        <p class="quality">HD</p>
+                        <p class="date">1984</p>
+                      </div>
+                      <p class="category">Мелодрама, Комедия</p>
 
-                    <div class="info">
-                      <div class="rate">
-                        <i class="fa-solid fa-star"></i>
-                        <p>8.3</p>
+                      <div class="info">
+                        <div class="rate">
+                          <i class="fa-solid fa-star"></i>
+                          <p>8.3</p>
+                        </div>
+                        <div class="time">
+                          <i class="fa-regular fa-clock"></i>
+                          <p>107 минут</p>
+                        </div>
                       </div>
-                      <div class="time">
-                        <i class="fa-regular fa-clock"></i>
-                        <p>107 минут</p>
-                      </div>
+                    </div>
+
+                    <div class="right">
+                      <i class="fa-solid fa-play"></i>
                     </div>
                   </div>
-
-                  <div class="right">
-                    <i class="fa-solid fa-play"></i>
+                  <div class="card-img">
+                    <img src="img/loveandpigeons.webp" alt="" />
                   </div>
-                </div>
-                <div class="card-img">
-                  <img src="img/loveandpigeons.webp" alt="" />
                 </div>
               </div>
-            </div>
-          </li>
-          <li class="item-d">
-            <div class="box">
-              <div class="card">
-                <div class="details">
-                  <div class="left">
-                    <p class="name">Алхимия душ</p>
-                    <div class="date-quality">
-                      <p class="quality">HD</p>
-                      <p class="date">2023</p>
-                    </div>
-                    <p class="category">Мелодрама, Фэнтези</p>
+            </li>
+          </a>
+          <a href="alchemyofsouls.html">
+            <li class="item-d">
+              <div class="box">
+                <div class="card">
+                  <div class="details">
+                    <div class="left">
+                      <p class="name">Алхимия душ</p>
+                      <div class="date-quality">
+                        <p class="quality">HD</p>
+                        <p class="date">2023</p>
+                      </div>
+                      <p class="category">Мелодрама, Фэнтези</p>
 
-                    <div class="info">
-                      <div class="rate">
-                        <i class="fa-solid fa-star"></i>
-                        <p>8.8</p>
+                      <div class="info">
+                        <div class="rate">
+                          <i class="fa-solid fa-star"></i>
+                          <p>8.8</p>
+                        </div>
+                        <div class="time">
+                          <i class="fa-regular fa-clock"></i>
+                          <p>70 мин</p>
+                        </div>
                       </div>
-                      <div class="time">
-                        <i class="fa-regular fa-clock"></i>
-                        <p>70 мин</p>
-                      </div>
+                    </div>
+
+                    <div class="right">
+                      <i class="fa-solid fa-play"></i>
                     </div>
                   </div>
-
-                  <div class="right">
-                    <i class="fa-solid fa-play"></i>
+                  <div class="card-img">
+                    <img src="img/alchemists.webp" alt="" />
                   </div>
-                </div>
-                <div class="card-img">
-                  <img src="img/alchemists.webp" alt="" />
                 </div>
               </div>
-            </div>
-          </li>
-          <li class="item-e">
-            <div class="box">
-              <div class="card">
-                <div class="details">
-                  <div class="left">
-                    <p class="name">Искрящийся арбуз</p>
-                    <div class="date-quality">
-                      <p class="quality">HD</p>
-                      <p class="date">2019</p>
-                    </div>
-                    <p class="category">Мелодрама, Музыка</p>
+            </li>
+          </a>
+          <a href="shinywatermelon.html">
+            <li class="item-e">
+              <div class="box">
+                <div class="card">
+                  <div class="details">
+                    <div class="left">
+                      <p class="name">Искрящийся арбуз</p>
+                      <div class="date-quality">
+                        <p class="quality">HD</p>
+                        <p class="date">2019</p>
+                      </div>
+                      <p class="category">Мелодрама, Музыка</p>
 
-                    <div class="info">
-                      <div class="rate">
-                        <i class="fa-solid fa-star"></i>
-                        <p>9.0</p>
+                      <div class="info">
+                        <div class="rate">
+                          <i class="fa-solid fa-star"></i>
+                          <p>9.0</p>
+                        </div>
+                        <div class="time">
+                          <i class="fa-regular fa-clock"></i>
+                          <p>70 минут</p>
+                        </div>
                       </div>
-                      <div class="time">
-                        <i class="fa-regular fa-clock"></i>
-                        <p>70 минут</p>
-                      </div>
+                    </div>
+
+                    <div class="right">
+                      <i class="fa-solid fa-play"></i>
                     </div>
                   </div>
-
-                  <div class="right">
-                    <i class="fa-solid fa-play"></i>
+                  <div class="card-img">
+                    <img src="img/watermelon.webp" alt="" />
                   </div>
-                </div>
-                <div class="card-img">
-                  <img src="img/watermelon.webp" alt="" />
                 </div>
               </div>
-            </div>
-          </li>
-          <li class="item-f">
-            <div class="box">
-              <div class="card">
-                <div class="details">
-                  <div class="left">
-                    <p class="name">Душа</p>
-                    <div class="date-quality">
-                      <p class="quality">HD</p>
-                      <p class="date">1980</p>
-                    </div>
-                    <p class="category">Мелодрама, Комедия</p>
+            </li>
+          </a>
+          <a href="il-bisbetico-domato.html">
+            <li class="item-f">
+              <div class="box">
+                <div class="card">
+                  <div class="details">
+                    <div class="left">
+                      <p class="name">Укрощение Строптивого</p>
+                      <div class="date-quality">
+                        <p class="quality">HD</p>
+                        <p class="date">1980</p>
+                      </div>
+                      <p class="category">Мелодрама, Комедия</p>
 
-                    <div class="info">
-                      <div class="rate">
-                        <i class="fa-solid fa-star"></i>
-                        <p>8.4</p>
+                      <div class="info">
+                        <div class="rate">
+                          <i class="fa-solid fa-star"></i>
+                          <p>8.4</p>
+                        </div>
+                        <div class="time">
+                          <i class="fa-regular fa-clock"></i>
+                          <p>107 минут</p>
+                        </div>
                       </div>
-                      <div class="time">
-                        <i class="fa-regular fa-clock"></i>
-                        <p>107 минут</p>
-                      </div>
+                    </div>
+
+                    <div class="right">
+                      <i class="fa-solid fa-play"></i>
                     </div>
                   </div>
-
-                  <div class="right">
-                    <i class="fa-solid fa-play"></i>
+                  <div class="card-img">
+                    <img src="img/stroptivoi.webp" alt="" />
                   </div>
-                </div>
-                <div class="card-img">
-                  <img src="img/stroptivoi.webp" alt="" />
                 </div>
               </div>
-            </div>
-          </li>
+            </li>
+          </a>
         </ul>
 
         <h1>Триллеры</h1>
 
         <ul class="latest" id="autoWidth4">
-          <li class="item-a">
-            <div class="box">
-              <div class="card">
-                <div class="details">
-                  <div class="left">
-                    <p class="name">Бойцовский клуб</p>
-                    <div class="date-quality">
-                      <p class="quality">HD</p>
-                      <p class="date">1999</p>
-                    </div>
-                    <p class="category">Триллер, Драма</p>
+          <a href="fight-club.html">
+            <li class="item-a">
+              <div class="box">
+                <div class="card">
+                  <div class="details">
+                    <div class="left">
+                      <p class="name">Бойцовский клуб</p>
+                      <div class="date-quality">
+                        <p class="quality">HD</p>
+                        <p class="date">1999</p>
+                      </div>
+                      <p class="category">Триллер, Драма</p>
 
-                    <div class="info">
-                      <div class="rate">
-                        <i class="fa-solid fa-star"></i>
-                        <p>8.7</p>
+                      <div class="info">
+                        <div class="rate">
+                          <i class="fa-solid fa-star"></i>
+                          <p>8.7</p>
+                        </div>
+                        <div class="time">
+                          <i class="fa-regular fa-clock"></i>
+                          <p>194 минут</p>
+                        </div>
                       </div>
-                      <div class="time">
-                        <i class="fa-regular fa-clock"></i>
-                        <p>194 минут</p>
-                      </div>
+                    </div>
+
+                    <div class="right">
+                      <i class="fa-solid fa-play"></i>
                     </div>
                   </div>
-
-                  <div class="right">
-                    <i class="fa-solid fa-play"></i>
+                  <div class="card-img">
+                    <img src="img/fightclub.webp" alt="" />
                   </div>
-                </div>
-                <div class="card-img">
-                  <img src="img/fightclub.webp" alt="" />
                 </div>
               </div>
-            </div>
-          </li>
-          <li class="item-b">
-            <div class="box">
-              <div class="card">
-                <div class="details">
-                  <div class="left">
-                    <p class="name">Остров проклятых</p>
-                    <div class="date-quality">
-                      <p class="quality">HDR</p>
-                      <p class="date">2009</p>
-                    </div>
-                    <p class="category">Триллер, Детектив</p>
+            </li>
+          </a>
+          <a href="dead-island.html">
+            <li class="item-b">
+              <div class="box">
+                <div class="card">
+                  <div class="details">
+                    <div class="left">
+                      <p class="name">Остров проклятых</p>
+                      <div class="date-quality">
+                        <p class="quality">HDR</p>
+                        <p class="date">2009</p>
+                      </div>
+                      <p class="category">Триллер, Детектив</p>
 
-                    <div class="info">
-                      <div class="rate">
-                        <i class="fa-solid fa-star"></i>
-                        <p>7.7</p>
+                      <div class="info">
+                        <div class="rate">
+                          <i class="fa-solid fa-star"></i>
+                          <p>7.7</p>
+                        </div>
+                        <div class="time">
+                          <i class="fa-regular fa-clock"></i>
+                          <p>138 минут</p>
+                        </div>
                       </div>
-                      <div class="time">
-                        <i class="fa-regular fa-clock"></i>
-                        <p>138 минут</p>
-                      </div>
+                    </div>
+
+                    <div class="right">
+                      <i class="fa-solid fa-play"></i>
                     </div>
                   </div>
-
-                  <div class="right">
-                    <i class="fa-solid fa-play"></i>
+                  <div class="card-img">
+                    <img src="img/island.webp" alt="" />
                   </div>
-                </div>
-                <div class="card-img">
-                  <img src="img/island.webp" alt="" />
                 </div>
               </div>
-            </div>
-          </li>
-          <li class="item-c">
-            <div class="box">
-              <div class="card">
-                <div class="details">
-                  <div class="left">
-                    <p class="name">Молчание ягнят</p>
-                    <div class="date-quality">
-                      <p class="quality">HD</p>
-                      <p class="date">1990</p>
-                    </div>
-                    <p class="category">Триллер, Детектив</p>
+            </li>
+          </a>
+          <a href="the-silence-of-the-lambs.html">
+            <li class="item-c">
+              <div class="box">
+                <div class="card">
+                  <div class="details">
+                    <div class="left">
+                      <p class="name">Молчание ягнят</p>
+                      <div class="date-quality">
+                        <p class="quality">HD</p>
+                        <p class="date">1990</p>
+                      </div>
+                      <p class="category">Триллер, Детектив</p>
 
-                    <div class="info">
-                      <div class="rate">
-                        <i class="fa-solid fa-star"></i>
-                        <p>8.3</p>
+                      <div class="info">
+                        <div class="rate">
+                          <i class="fa-solid fa-star"></i>
+                          <p>8.3</p>
+                        </div>
+                        <div class="time">
+                          <i class="fa-regular fa-clock"></i>
+                          <p>118 минут</p>
+                        </div>
                       </div>
-                      <div class="time">
-                        <i class="fa-regular fa-clock"></i>
-                        <p>118 минут</p>
-                      </div>
+                    </div>
+
+                    <div class="right">
+                      <i class="fa-solid fa-play"></i>
                     </div>
                   </div>
-
-                  <div class="right">
-                    <i class="fa-solid fa-play"></i>
+                  <div class="card-img">
+                    <img src="img/molchanie.webp" alt="" />
                   </div>
-                </div>
-                <div class="card-img">
-                  <img src="img/molchanie.webp" alt="" />
                 </div>
               </div>
-            </div>
-          </li>
-          <li class="item-d">
-            <div class="box">
-              <div class="card">
-                <div class="details">
-                  <div class="left">
-                    <p class="name">Метод</p>
-                    <div class="date-quality">
-                      <p class="quality">HD</p>
-                      <p class="date">2015</p>
-                    </div>
-                    <p class="category">Триллер, Криминал</p>
+            </li>
+          </a>
+          <a href="metod.html">
+            <li class="item-d">
+              <div class="box">
+                <div class="card">
+                  <div class="details">
+                    <div class="left">
+                      <p class="name">Метод</p>
+                      <div class="date-quality">
+                        <p class="quality">HD</p>
+                        <p class="date">2015</p>
+                      </div>
+                      <p class="category">Триллер, Криминал</p>
 
-                    <div class="info">
-                      <div class="rate">
-                        <i class="fa-solid fa-star"></i>
-                        <p>8.2</p>
+                      <div class="info">
+                        <div class="rate">
+                          <i class="fa-solid fa-star"></i>
+                          <p>8.2</p>
+                        </div>
+                        <div class="time">
+                          <i class="fa-regular fa-clock"></i>
+                          <p>53 минут</p>
+                        </div>
                       </div>
-                      <div class="time">
-                        <i class="fa-regular fa-clock"></i>
-                        <p>53 минут</p>
-                      </div>
+                    </div>
+
+                    <div class="right">
+                      <i class="fa-solid fa-play"></i>
                     </div>
                   </div>
-
-                  <div class="right">
-                    <i class="fa-solid fa-play"></i>
+                  <div class="card-img">
+                    <img src="img/metod.webp" alt="" />
                   </div>
-                </div>
-                <div class="card-img">
-                  <img src="img/metod.webp" alt="" />
                 </div>
               </div>
-            </div>
-          </li>
-          <li class="item-e">
-            <div class="box">
-              <div class="card">
-                <div class="details">
-                  <div class="left">
-                    <p class="name">Пищеблок</p>
-                    <div class="date-quality">
-                      <p class="quality">HD</p>
-                      <p class="date">2021</p>
-                    </div>
-                    <p class="category">Триллер, Детектив</p>
-                    <div class="info">
-                      <div class="rate">
-                        <i class="fa-solid fa-star"></i>
-                        <p>7.4</p>
+            </li>
+          </a>
+          <a href="pisheblock.html">
+            <li class="item-e">
+              <div class="box">
+                <div class="card">
+                  <div class="details">
+                    <div class="left">
+                      <p class="name">Пищеблок</p>
+                      <div class="date-quality">
+                        <p class="quality">HD</p>
+                        <p class="date">2021</p>
                       </div>
-                      <div class="time">
-                        <i class="fa-regular fa-clock"></i>
-                        <p>50 мин</p>
+                      <p class="category">Триллер, Детектив</p>
+                      <div class="info">
+                        <div class="rate">
+                          <i class="fa-solid fa-star"></i>
+                          <p>7.4</p>
+                        </div>
+                        <div class="time">
+                          <i class="fa-regular fa-clock"></i>
+                          <p>50 мин</p>
+                        </div>
                       </div>
                     </div>
-                  </div>
 
-                  <div class="right">
-                    <i class="fa-solid fa-play"></i>
+                    <div class="right">
+                      <i class="fa-solid fa-play"></i>
+                    </div>
                   </div>
-                </div>
-                <div class="card-img">
-                  <img src="img/pisheblok.webp" alt="" />
+                  <div class="card-img">
+                    <img src="img/pisheblok.webp" alt="" />
+                  </div>
                 </div>
               </div>
-            </div>
-          </li>
-          <li class="item-f">
-            <div class="box">
-              <div class="card">
-                <div class="details">
-                  <div class="left">
-                    <p class="name">Сплит</p>
-                    <div class="date-quality">
-                      <p class="quality">HD</p>
-                      <p class="date">2017</p>
-                    </div>
-                    <p class="category">Триллер, Ужасы</p>
+            </li>
+          </a>
+          <a href="split.html">
+            <li class="item-f">
+              <div class="box">
+                <div class="card">
+                  <div class="details">
+                    <div class="left">
+                      <p class="name">Сплит</p>
+                      <div class="date-quality">
+                        <p class="quality">HD</p>
+                        <p class="date">2017</p>
+                      </div>
+                      <p class="category">Триллер, Ужасы</p>
 
-                    <div class="info">
-                      <div class="rate">
-                        <i class="fa-solid fa-star"></i>
-                        <p>7.0</p>
+                      <div class="info">
+                        <div class="rate">
+                          <i class="fa-solid fa-star"></i>
+                          <p>7.0</p>
+                        </div>
+                        <div class="time">
+                          <i class="fa-regular fa-clock"></i>
+                          <p>117 минут</p>
+                        </div>
                       </div>
-                      <div class="time">
-                        <i class="fa-regular fa-clock"></i>
-                        <p>117 минут</p>
-                      </div>
+                    </div>
+
+                    <div class="right">
+                      <i class="fa-solid fa-play"></i>
                     </div>
                   </div>
-
-                  <div class="right">
-                    <i class="fa-solid fa-play"></i>
+                  <div class="card-img">
+                    <img src="img/split.webp" alt="" />
                   </div>
-                </div>
-                <div class="card-img">
-                  <img src="img/split.webp" alt="" />
                 </div>
               </div>
-            </div>
-          </li>
+            </li>
+          </a>
         </ul>
 
         <h1>Ужасы</h1>
 
         <ul class="latest" id="autoWidth5">
-          <li class="item-a">
-            <div class="box">
-              <div class="card">
-                <div class="details">
-                  <div class="left">
-                    <p class="name">Поезд в Пусан</p>
-                    <div class="date-quality">
-                      <p class="quality">HD</p>
-                      <p class="date">2016</p>
-                    </div>
-                    <p class="category">Ужасы, Боевик</p>
+          <a href="pusan-train.html">
+            <li class="item-a">
+              <div class="box">
+                <div class="card">
+                  <div class="details">
+                    <div class="left">
+                      <p class="name">Поезд в Пусан</p>
+                      <div class="date-quality">
+                        <p class="quality">HD</p>
+                        <p class="date">2016</p>
+                      </div>
+                      <p class="category">Ужасы, Боевик</p>
 
-                    <div class="info">
-                      <div class="rate">
-                        <i class="fa-solid fa-star"></i>
-                        <p>7.2</p>
+                      <div class="info">
+                        <div class="rate">
+                          <i class="fa-solid fa-star"></i>
+                          <p>7.2</p>
+                        </div>
+                        <div class="time">
+                          <i class="fa-regular fa-clock"></i>
+                          <p>118 минут</p>
+                        </div>
                       </div>
-                      <div class="time">
-                        <i class="fa-regular fa-clock"></i>
-                        <p>118 минут</p>
-                      </div>
+                    </div>
+
+                    <div class="right">
+                      <i class="fa-solid fa-play"></i>
                     </div>
                   </div>
-
-                  <div class="right">
-                    <i class="fa-solid fa-play"></i>
+                  <div class="card-img">
+                    <img src="img/pusan.webp" alt="" />
                   </div>
-                </div>
-                <div class="card-img">
-                  <img src="img/pusan.webp" alt="" />
                 </div>
               </div>
-            </div>
-          </li>
-          <li class="item-b">
-            <div class="box">
-              <div class="card">
-                <div class="details">
-                  <div class="left">
-                    <p class="name">Я — легенда</p>
-                    <div class="date-quality">
-                      <p class="quality">HDR</p>
-                      <p class="date">2007</p>
-                    </div>
-                    <p class="category">Ужасы, Фантастика</p>
+            </li>
+          </a>
+          <a href="legenda.html">
+            <li class="item-b">
+              <div class="box">
+                <div class="card">
+                  <div class="details">
+                    <div class="left">
+                      <p class="name">Я — легенда</p>
+                      <div class="date-quality">
+                        <p class="quality">HDR</p>
+                        <p class="date">2007</p>
+                      </div>
+                      <p class="category">Ужасы, Фантастика</p>
 
-                    <div class="info">
-                      <div class="rate">
-                        <i class="fa-solid fa-star"></i>
-                        <p>7.9</p>
+                      <div class="info">
+                        <div class="rate">
+                          <i class="fa-solid fa-star"></i>
+                          <p>7.9</p>
+                        </div>
+                        <div class="time">
+                          <i class="fa-regular fa-clock"></i>
+                          <p>96 минут</p>
+                        </div>
                       </div>
-                      <div class="time">
-                        <i class="fa-regular fa-clock"></i>
-                        <p>96 минут</p>
-                      </div>
+                    </div>
+
+                    <div class="right">
+                      <i class="fa-solid fa-play"></i>
                     </div>
                   </div>
-
-                  <div class="right">
-                    <i class="fa-solid fa-play"></i>
+                  <div class="card-img">
+                    <img src="img/legenda.webp" alt="" />
                   </div>
-                </div>
-                <div class="card-img">
-                  <img src="img/legenda.webp" alt="" />
                 </div>
               </div>
-            </div>
-          </li>
-          <li class="item-c">
-            <div class="box">
-              <div class="card">
-                <div class="details">
-                  <div class="left">
-                    <p class="name">Оно</p>
-                    <div class="date-quality">
-                      <p class="quality">HD</p>
-                      <p class="date">2017</p>
-                    </div>
-                    <p class="category">Ужасы, Фэнтези</p>
+            </li>
+          </a>
+          <a href="it.html">
+            <li class="item-c">
+              <div class="box">
+                <div class="card">
+                  <div class="details">
+                    <div class="left">
+                      <p class="name">Оно</p>
+                      <div class="date-quality">
+                        <p class="quality">HD</p>
+                        <p class="date">2017</p>
+                      </div>
+                      <p class="category">Ужасы, Фэнтези</p>
 
-                    <div class="info">
-                      <div class="rate">
-                        <i class="fa-solid fa-star"></i>
-                        <p>7.3</p>
+                      <div class="info">
+                        <div class="rate">
+                          <i class="fa-solid fa-star"></i>
+                          <p>7.3</p>
+                        </div>
+                        <div class="time">
+                          <i class="fa-regular fa-clock"></i>
+                          <p>135 минут</p>
+                        </div>
                       </div>
-                      <div class="time">
-                        <i class="fa-regular fa-clock"></i>
-                        <p>135 минут</p>
-                      </div>
+                    </div>
+
+                    <div class="right">
+                      <i class="fa-solid fa-play"></i>
                     </div>
                   </div>
-
-                  <div class="right">
-                    <i class="fa-solid fa-play"></i>
+                  <div class="card-img">
+                    <img src="img/ono.webp" alt="" />
                   </div>
-                </div>
-                <div class="card-img">
-                  <img src="img/ono.webp" alt="" />
                 </div>
               </div>
-            </div>
-          </li>
-          <li class="item-d">
-            <div class="box">
-              <div class="card">
-                <div class="details">
-                  <div class="left">
-                    <p class="name">Добро пожаловать в Zомбилэнд</p>
-                    <div class="date-quality">
-                      <p class="quality">HD</p>
-                      <p class="date">2009</p>
-                    </div>
-                    <p class="category">Ужасы, Комедия</p>
+            </li>
+          </a>
+          <a href="zombieland.html">
+            <li class="item-d">
+              <div class="box">
+                <div class="card">
+                  <div class="details">
+                    <div class="left">
+                      <p class="name">Добро пожаловать в Zомбилэнд</p>
+                      <div class="date-quality">
+                        <p class="quality">HD</p>
+                        <p class="date">2009</p>
+                      </div>
+                      <p class="category">Ужасы, Комедия</p>
 
-                    <div class="info">
-                      <div class="rate">
-                        <i class="fa-solid fa-star"></i>
-                        <p>7.4</p>
+                      <div class="info">
+                        <div class="rate">
+                          <i class="fa-solid fa-star"></i>
+                          <p>7.4</p>
+                        </div>
+                        <div class="time">
+                          <i class="fa-regular fa-clock"></i>
+                          <p>84 минут</p>
+                        </div>
                       </div>
-                      <div class="time">
-                        <i class="fa-regular fa-clock"></i>
-                        <p>84 минут</p>
-                      </div>
+                    </div>
+
+                    <div class="right">
+                      <i class="fa-solid fa-play"></i>
                     </div>
                   </div>
-
-                  <div class="right">
-                    <i class="fa-solid fa-play"></i>
+                  <div class="card-img">
+                    <img src="img/zombieland.webp" alt="" />
                   </div>
-                </div>
-                <div class="card-img">
-                  <img src="img/zombieland.webp" alt="" />
                 </div>
               </div>
-            </div>
-          </li>
-          <li class="item-e">
-            <div class="box">
-              <div class="card">
-                <div class="details">
-                  <div class="left">
-                    <p class="name">Чужой</p>
-                    <div class="date-quality">
-                      <p class="quality">HD</p>
-                      <p class="date">1979</p>
-                    </div>
-                    <p class="category">Ужасы, Ффантастика</p>
-                    <div class="info">
-                      <div class="rate">
-                        <i class="fa-solid fa-star"></i>
-                        <p>8.1</p>
+            </li>
+          </a>
+          <a href="alien.html">
+            <li class="item-e">
+              <div class="box">
+                <div class="card">
+                  <div class="details">
+                    <div class="left">
+                      <p class="name">Чужой</p>
+                      <div class="date-quality">
+                        <p class="quality">HD</p>
+                        <p class="date">1979</p>
                       </div>
-                      <div class="time">
-                        <i class="fa-regular fa-clock"></i>
-                        <p>116 минут</p>
+                      <p class="category">Ужасы, Ффантастика</p>
+                      <div class="info">
+                        <div class="rate">
+                          <i class="fa-solid fa-star"></i>
+                          <p>8.1</p>
+                        </div>
+                        <div class="time">
+                          <i class="fa-regular fa-clock"></i>
+                          <p>116 минут</p>
+                        </div>
                       </div>
                     </div>
-                  </div>
 
-                  <div class="right">
-                    <i class="fa-solid fa-play"></i>
+                    <div class="right">
+                      <i class="fa-solid fa-play"></i>
+                    </div>
                   </div>
-                </div>
-                <div class="card-img">
-                  <img src="img/alien.webp" alt="" />
+                  <div class="card-img">
+                    <img src="img/alien.webp" alt="" />
+                  </div>
                 </div>
               </div>
-            </div>
-          </li>
-          <li class="item-f">
-            <div class="box">
-              <div class="card">
-                <div class="details">
-                  <div class="left">
-                    <p class="name">Оно 2</p>
-                    <div class="date-quality">
-                      <p class="quality">HD</p>
-                      <p class="date">2019</p>
-                    </div>
-                    <p class="category">Ужасы, Фэнтези</p>
+            </li>
+          </a>
+          <a href="it-2.html">
+            <li class="item-f">
+              <div class="box">
+                <div class="card">
+                  <div class="details">
+                    <div class="left">
+                      <p class="name">Оно 2</p>
+                      <div class="date-quality">
+                        <p class="quality">HD</p>
+                        <p class="date">2019</p>
+                      </div>
+                      <p class="category">Ужасы, Фэнтези</p>
 
-                    <div class="info">
-                      <div class="rate">
-                        <i class="fa-solid fa-star"></i>
-                        <p>6.5</p>
+                      <div class="info">
+                        <div class="rate">
+                          <i class="fa-solid fa-star"></i>
+                          <p>6.5</p>
+                        </div>
+                        <div class="time">
+                          <i class="fa-regular fa-clock"></i>
+                          <p>169 минут</p>
+                        </div>
                       </div>
-                      <div class="time">
-                        <i class="fa-regular fa-clock"></i>
-                        <p>169 минут</p>
-                      </div>
+                    </div>
+
+                    <div class="right">
+                      <i class="fa-solid fa-play"></i>
                     </div>
                   </div>
-
-                  <div class="right">
-                    <i class="fa-solid fa-play"></i>
+                  <div class="card-img">
+                    <img src="img/ono2.webp" alt="" />
                   </div>
-                </div>
-                <div class="card-img">
-                  <img src="img/ono2.webp" alt="" />
                 </div>
               </div>
-            </div>
-          </li>
+            </li>
+          </a>
         </ul>
       </div>
 
@@ -1289,34 +1357,34 @@
         <div class="footer-content">
           <div class="footer-first-column">
             <span>О нас</span>
-            <a href="#">О компании</a> <br />
-            <a href="#">Вакансии</a> <br />
-            <a href="#">Программа для бета-тестирования</a> <br />
-            <a href="#">Информация для партнёров</a> <br />
-            <a href="#">Размещение рекламы</a> <br />
-            <a href="#">Пользовательское соглашение</a> <br />
-            <a href="#">Политика конфидециальности</a>
+            <a href="about-us.html">О компании</a> <br />
+            <a href="job-openings.html">Вакансии</a> <br />
+            <a href="email.html">Программа для бета-тестирования</a> <br />
+            <a href="email.html">Информация для партнёров</a> <br />
+            <a href="email.html">Размещение рекламы</a> <br />
+            <a href="email.html">Пользовательское соглашение</a> <br />
+            <a href="email.html">Политика конфидециальности</a>
           </div>
           <div class="footer-second-column">
             <span>Разделы</span>
-            <a href="">Что нового</a> <br />
-            <a href="">Фильмы</a> <br />
-            <a href="">Сериалы</a> <br />
-            <a href="">Мультфильмы</a> <br />
-            <a href="">ТВ-каналы</a> <br />
-            <a href="">Что посмотреть</a>
+            <a href="index.html#second">Сейчас смотрят</a> <br />
+            <a href="index.html#autoWidth2">Мультфильмы</a> <br />
+            <a href="index.html#autoWidth3">Мелодрамы</a> <br />
+            <a href="index.html#autoWidth4">Триллеры</a> <br />
+            <a href="index.html#autoWidth5">Ужасы</a> <br />
           </div>
           <div class="footer-third-column">
             <span>Служба поддержки</span>
             Мы всегда готовы вам помочь. <br />
             Наши операторы онлайн 24/7
-            <div class="footer-third-column-chat">Написать в чате</div>
+            <div class="footer-third-column-chat">
+              <a href="https://t.me/zemeckisofficial">Написать в чате</a>
+            </div>
             <div class="footer-third-column-content">
               <div class="footer-third-column-mail">
-                <img src="svg/mail 1.svg" alt="" />
-              </div>
-              <div class="footer-third-column-phone">
-                <img src="svg/telephone.svg" alt="" />
+                <a href="mailto:zemeckis.official@gmail.com">
+                  <img src="svg/mail 1.svg" alt="" />
+                </a>
               </div>
             </div>
           </div>
@@ -1324,21 +1392,25 @@
         <div class="footer-bottom-stroke"></div>
         <div class="footer-media">
           <div class="footer-media-icon">
-            <img src="svg/vk-logo-of-social-network 1.svg" alt="" />
+            <a href="https://vk.ru/club225802798"
+              ><img src="svg/vk-logo-of-social-network 1.svg" alt=""
+            /></a>
           </div>
           <div class="footer-media-icon">
-            <img src="svg/twitter 1.svg" alt="" />
+            <a href="https://twitter.com/bazarajackson">
+              <img src="svg/twitter 1.svg" alt="" />
+            </a>
           </div>
           <div class="footer-media-icon">
-            <img src="svg/telegram (1) 1.svg" alt="" />
-          </div>
-          <div class="footer-media-icon">
-            <img src="svg/tik-tok 1.svg" alt="" />
+            <a href="https://t.me/zemeckisofficial">
+              <img src="svg/telegram (1) 1.svg" alt="" />
+            </a>
           </div>
         </div>
       </footer>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="js/autocomplete.js"></script>
     <script src="js/index.js"></script>
   </body>
 </html>
